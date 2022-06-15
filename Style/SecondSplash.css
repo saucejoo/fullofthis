@@ -1,0 +1,20 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    outline: none;
+    border: none;
+    padding: 0;
+  }
+
+  div{
+    padding: 16px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .gradient-text p{
+    background: linear-gradient(21deg, #10abff, #1beabd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;;
+  }

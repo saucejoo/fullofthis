@@ -1,0 +1,102 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  outline: none;
+  border: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.center {
+  margin: 0 auto;
+ width: 100%;
+ display: block;
+}
+
+body{
+    background-color: #000;
+  }
+
+  #canvas{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index:1;
+    border: 8px #10abff solid;
+      border-radius: 20px;
+  }
+  
+  #video{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index:0;
+    border: 8px #1beabd solid;
+      border-radius: 20px;
+  }
+  
+  .Buttons{
+    position: relative;
+    -webkit-appearance: none;
+    margin-top: 10px;
+  
+    height:36px;
+    border: 2px solid #fff;
+    border-radius: 18px;
+  
+    background: none;
+    font-size: 10pt;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:100;
+  
+    cursor: pointer;
+  }
+  
+  #edit_button{
+    margin-top: 5px;
+    margin-left: 1310px;/*Or 665px*/
+    margin-bottom: 15px;
+  
+    width:200px;
+    border-color: #fff;
+    font-size: 14pt;
+    color: #fff;
+  }
+
+  #shake{
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+
+  #first{
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+
+  #myContainer{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index:0;
+    /* border: 8px #1beabd solid; */
+    border-radius: 20px;
+  }
+
+  div{
+    /* position: relative; */
+    display: block;
+    padding: 16px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .gradient-text p{
+    background: linear-gradient(21deg, #10abff, #1beabd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;;
+  }

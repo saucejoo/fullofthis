@@ -1,0 +1,49 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    outline: none;
+    border: none;
+    padding: 0;
+  }
+
+  button{
+    margin-top: 18%;
+    width:120px;
+    height: 40px;
+    color:rgb(0, 0, 0);
+    background: linear-gradient(21deg, #10abff, #1beabd);
+    font-size: 16px;
+    border:none;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0,79,255,0.3);
+    transition:0.3s;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+  }
+  button:focus {
+    outline:0;
+  }
+  button:hover{
+    background: linear-gradient(21deg, #1beabd, #10abff);
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,79,255,0.6);
+  }
+
+  video {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background-size: cover;
+}
+
+.center {
+  margin: 0 auto;
+ width: 100%;
+ display: block;
+}
+
+body {
+  /* background-image: url('onImage/hamburger.png'); */
+  background-color: black;
+}

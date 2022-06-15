@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/onstyle.css">
+    <link rel="stylesheet" href="Style/btnstyle.css">
+    <link rel="stylesheet" href="Style/blink.css">
+
+    <title>온이생</title>
+</head>
+
+<body>
+    <h1>
+        온통 이 생각
+    </h1>
+    <h2>
+        (음식 편)
+    </h2>
+    <!-- <h2>
+        하나의 키워드에 몰입하는 경험을 가져보세요!
+    </h2> -->
+    <!-- <div>
+        <input type="text" id="words" onKeyDown="pressEnter()"
+        placeholder="무슨 생각?" name="words">
+    </div> -->
+    <!-- <div class="main">
+        <img src="onimage/full.png">
+    </div> -->
+
+    <div class="search-form">
+        <form>
+            <div class="block">
+                <input type="text" id="test3" onkeydown="pressEnter()" placeholder="무슨 생각?  ex) 햄버거, 사과..">
+                <button id="eyeLeft"></button>
+            </div>
+        </form>
+      </div>
+
+      <div class="box"></div>
+
+    <div class="keys">
+        <div class ="key" data-key="65">
+        </div>
+    </div>
+    <div class="circle">
+        <div class="incircle"></div>
+    </div>
+
+    <input type="button" id="blueBtn" class="go" value="검색" onclick="clickBtn()">
+
+
+        <!-- <button type="button" class="button buttonBlue">슝~
+          <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+        </button>
+      -->
+
+    <audio id="audio" controls style="display:none">
+        <source src="onaudio/sound_1.mp3" type="audio/mpeg"> 
+      </audio>
+      <audio id="test" src="onaudio/sound_2.mp3" ></audio>
+      <audio id="test2" src="onaudio/sound_3.mp3" ></audio>
+
+    <video class="center" autoplay muted loop id="myvideo"> 
+    <source src="onvideo/universe.mp4"
+                type="video/mp4">
+        </video>
+
+        <div class="human2">
+            <img src="onImage/humanno.png">
+        </div>
+
+        <div class="blink"><hr /></div>
+
+        <div id="item1">
+            <img src="onImage/icecreamf.png" alt="" width="250px">
+        </div>
+    
+        <div id="item2">
+            <img src="onImage/chickenf.png" width="250px" alt="">
+        </div>
+    
+        <div id="item3">
+            <img src="onImage/burgerf.png" width="250px" alt="">
+        </div>
+
+        <div id="item4">
+            <img src="onImage/applef.png" width="250px" alt="">
+        </div>
+    
+        <div id="item5">
+            <img src="onImage/breadf.png" width="250px" alt="">
+        </div>
+        
+
+
+        
+
+    <script type="text/javascript" src="JS/onsketch.js" defer></script>
+    <script type="text/javascript" src="JS/Visible.js"></script>
+    <script type="text/javascript" src="JS/CheckMainItem.js"></script>
+</body>
+</html>
